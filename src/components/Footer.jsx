@@ -13,7 +13,7 @@ function Footer({ onDownloadClick }) {
               Sistem operasi berbasis Ubuntu Linux yang dirancang khusus untuk 
               dunia pendidikan Indonesia.
             </p>
-            <button className="footer-download-btn" onClick={() => { window.location.href = '/download.html' }}>
+            <button className="footer-download-btn" onClick={() => { window.location.href = 'https://drive.google.com/file/d/1wNqE0avtgaAMx5HFEWODam3KLRU8qK-C/view' }}>
               <Download size={20} />
               <span>Download Sekarang</span>
             </button>

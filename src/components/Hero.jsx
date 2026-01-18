@@ -24,7 +24,7 @@ function Hero({ onDownloadClick }) {
           dunia pendidikan Indonesia. Kuat, aman, dan mudah digunakan.
         </p>
         <div className="hero-cta">
-          <button className="btn-download-primary" onClick={() => { window.location.href = '/download.html' }}>
+          <button className="btn-download-primary" onClick={() => { window.location.href = 'https://drive.google.com/file/d/1wNqE0avtgaAMx5HFEWODam3KLRU8qK-C/view' }}>
             <Download size={24} />
             <span>Download Sekarang</span>
             <ArrowRight size={20} />

@@ -99,7 +99,7 @@ function DownloadModal({ isOpen, onClose }) {
                 <p>{option.description}</p>
                 <div className="option-size">{option.size}</div>
               </div>
-              <button className="option-download-btn" onClick={() => { window.location.href = '/download.html' }}>
+              <button className="option-download-btn" onClick={() => { window.location.href = 'https://drive.google.com/file/d/1wNqE0avtgaAMx5HFEWODam3KLRU8qK-C/view' }}>
                 Download
               </button>
             </div>
